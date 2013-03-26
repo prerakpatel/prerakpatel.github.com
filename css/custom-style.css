@@ -1,0 +1,21 @@
+.image-frame {
+	display: inline-block;
+	width: 129px;
+	height: 129px;
+	background-image: url('../img/150x150_me.png');
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	//box-shadow: 0 0 1px 3px #003c71;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+.image-frame {
+    background-image: url('../img/150x150_me@2x.png');
+    background-size: 129px 129px;
+  }
+}
